@@ -19,3 +19,4 @@ def remove_strawberry(contacts)
 end
 
 puts contacts
+puts 
