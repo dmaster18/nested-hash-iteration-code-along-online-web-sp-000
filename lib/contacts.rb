@@ -15,5 +15,5 @@ contacts = {
    }
   
 def remove_strawberry(contacts)
-  contacts["Freddie Mercury"][:favorite_ice_cream_flavors].pop
+  contacts["Freddie Mercury"][:favorite_ice_cream_flavors].shift
 end
