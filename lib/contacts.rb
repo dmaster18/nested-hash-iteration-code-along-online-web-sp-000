@@ -15,5 +15,5 @@ contacts = {
    }
   
 def remove_strawberry(contacts)
-  contacts
+  contacts["Freddie Mercury"]
 end
