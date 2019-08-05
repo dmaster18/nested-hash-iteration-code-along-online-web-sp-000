@@ -13,7 +13,7 @@ contacts = {
     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   }
    }
-puts contacts
+puts contacts["Freddie Mercury"]
 def remove_strawberry(contacts)
   contacts["Freddie Mercury"][:favorite_ice_cream_flavors][0]
 end
