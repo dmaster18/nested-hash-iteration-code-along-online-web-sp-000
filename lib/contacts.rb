@@ -15,7 +15,7 @@ contacts = {
    }
   
 def remove_strawberry(contacts)
-  delete contacts["Freddie Mercury"][:favorite_ice_cream_flavors][0]
+  contacts["Freddie Mercury"][:favorite_ice_cream_flavors][0]
 end
 
 puts contacts
